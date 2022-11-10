@@ -1,0 +1,586 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* =======================
+      COLOURS
+=========================*/
+.btn-col-1 {
+  background-color: #dab544;
+  color : black;
+}
+.btn-col-2 {
+  background-color: #009933;
+  color : white;
+}
+/* ================================================*/
+.flexy-cen , .flexy-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexy-col {
+  flex-direction: column;
+}
+button {
+  outline : none;
+  cursor : pointer;
+  transition: all 0.5s ease-in-out;
+}
+a {
+  text-decoration: none;
+  color :black;
+  transition: all 0.5s ease-in-out;
+}
+/* =======================================
+        CUSTOMIZED HEADDINGS
+ ======================================= */
+.head-small {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.head-medius {
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 3.6rem;
+}
+.common-para {
+  font-size: 18px;
+  font-family: Assistant;
+  font-weight: 400;
+}
+
+.title-head  {
+    font-family:"Playfair Display", sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: 700;
+    font-size: 44px;
+    text-shadow: 2px 3px 0px #009933;
+    color :white;
+    background-color: black;
+}
+/* =======================================
+        CUSTOMIZED BUTTONS
+ ======================================= */
+ .add-more {
+   width : 120px;
+   border-radius: 5px;
+   height: 40px;
+ }
+ .show-btn {
+     transition: all 0.5s ease-in;
+     width: 180px;
+     border-radius: 8px;
+     width: 165px;
+     height: 46px;
+     background-color: #009933;
+     color: white;
+ }
+ #home-hero  button {
+    background-color: #ddb53de6;
+    color: white;
+  }
+ #love-one article button {
+     background-color: black;
+     color: white;
+     padding: 13px 15px;
+ }
+ #love-one article a {
+     background-color: black;
+     color: white;
+     padding: 13px 15px;
+ }
+ #easy-contact .adress button {
+ 	  width : 160px;
+ 	  height : 50px;
+ 	  margin : 10px;
+ 	  background-color :black;
+ 	  color :white;
+ }
+ footer button {
+    color: gold !important;
+    background-color: black;
+}
+ footer button a {
+    color: gold !important;
+    background-color: black;
+}
+ /* =======================================
+        HEADER SETTINGS
+  ======================================= */
+
+ /* =======================================
+        CAROUSEL SETTINGS
+  ======================================= */
+.carousel-inner {
+  position: relative;
+  height: 100%;
+}
+ .caro-btn{
+   height: 100% !important;
+   height: 60px !important;
+   position: absolute;
+   top : 50%;
+   transform: : translateY(-50%);
+ }
+ .carousel-control-next ,
+ .carousel-control-prev {
+   background-color: #14d61c !important;
+ }
+ #testimoanial-carousel {
+   height: 70vh;
+   width: 708px;
+   border : 8px solid green;
+ }
+ #testimoanial-carousel ol li {
+   background-color: black !important;
+   width: 30px !important;
+   height: 30px !important;
+   border-radius: 50%;
+ }
+ #hero-carousel {
+   height: 80vh;
+   width: 100%;
+   position: relative;
+ }
+  #hero-carousel .slide-Item1 {
+    background: url("../assests/carousels/header-2Artboard-1.jpg") no-repeat;
+  }
+  #hero-carousel .slide-Item2 {
+    background: url("../assests/carousels/office.jpg") no-repeat;
+  }
+  #hero-carousel .slide-Item3 {
+    background: url("../assests/carousels/cars.jpg") no-repeat;
+  }
+  #hero-carousel .carousel-item {
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+  }
+  #hero-carousel aside {
+   background-color: #0080006b;
+   height: 80vh;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+   text-align: center;
+}
+#hero-carousel aside h1 {
+    font-family: assistant, "Roboto", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 6px 0px 8px rgba(0,0,0,0.3);
+}
+#hero-carousel aside p {
+    font-family: assistant, "Roboto", Sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 6px 0px 8px rgba(0,0,0,0.3);
+}
+ /* =======================================
+          DEFAULT COLOURS
+  ======================================= */
+ .clr1 {
+     background-color: #009933 !important;
+ 	   color : white;
+ }
+ .clr2 {
+ 	background-color: #dab544 !important;
+ 	color : #dd3c15;
+ }
+ .clr3 {
+ 	background-color: #e8e8e8 !important;
+ 	color : black;
+ }
+
+ /* =======================================
+            CUSTOMED BUTTONS
+  ======================================= */
+#easy-contact button{
+  background-color: #dab544;
+}
+
+
+/* =======================================
+           MODALS CUSTOMIZED
+ ======================================= */
+
+.customed-modal {
+  width : 100% ;
+  min-height: 100Vh;
+  background-color: #008000a1;
+  position: absolute;
+  top : 0px;
+  left : 0px;
+  z-index: 3000 !important;
+  opacity: 0;
+  transition: all 1.5s ease-in-out;
+  display : none;
+}
+.customed-modal .content {
+  background-color: #bebe41d1;
+  width : 788px !important;
+  margin: 50px auto;
+}
+.customed-modal .content article {
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+ .customed-modal .footer,
+   .customed-modal .header{
+   height: 15vh;
+   background-color: black;
+   width : 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding-right: 3%;
+ }
+ .customed-modal  button,
+ .customed-modalblack button {
+   width : 90px;
+   height: 36px;
+   border-radius: 3px;
+   background-color: black;
+   color :white;
+   font-weight: 700;
+ }
+
+ .customed-modal .footer button,
+ .customed-modal .header button {
+   background-color: #bebe41b5;
+ }
+
+
+.customed-modal .content aside img {
+  width : 100%;
+}
+
+/* =======================================
+          MODALS
+ ======================================= */
+/* #form-modal {
+  position: absolute !important;
+  top : 0px;
+  left : 0px;
+  z-index : 200;
+  display : none;
+} */
+#form-modal article {
+  background-color: green;
+}
+#form-modal article .header,
+#form-modal article .row,
+#form-modal article .footer {
+  width : 100% !important;
+}
+
+
+#footer-icon-slide{
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  transform: rotate(-9deg);
+}
+.messgae {
+  height : 80px;
+  width : 60%;
+  line-height :80px;
+  background-color : #24ff24;
+  font-weight : 700;
+  text-align :center;
+  display : flex;
+  margin : auto;
+}
+.messgae h2 {
+  margin : auto;
+}
+.message-content {
+  min-height : 65vh;
+  width : 100%;
+  background : url("../tile.png");
+  padding-bottom : 30px;
+
+}
+.message-content h3 {
+  font-size : 62px;
+  font-family : casteller;
+  text-align :center;
+}
+aside aside {
+  min-height : 25vh;
+  padding : 3%;
+  width : 100%;
+  display : flex;
+}
+aside aside {
+  min-height : 25vh;
+  padding : 3%;
+  width : 100%;
+  display : flex !important;
+}
+.container-wrapper {
+  background-color : white;
+  padding-bottom : 18px;
+   border: 18px solid #e64a19ad;
+}
+aside aside a {
+  margin : auto;
+  border-radius : 8px;
+  background-color : black;
+  color : orange;
+  font-weight : 700;
+}
+
+#orange p {
+  font-size : 28px;
+  font-style : italic;
+  font-weight : 700;
+  text-align :center !important;
+}
+aside aside a button {
+  background-color : orange;
+  color : black;
+  font-weight : 700;
+  transition : all 0.75s ease;
+}
+
+aside aside a button:hover {
+  background-color : black;
+  color : orange;
+  letter-spacing : 2px;
+}
+.three, #orange {
+  color :#FFB687;
+  font-style : italic;
+  font-weight : 600;
+
+  text-shadow : 1px 2px 1px black;
+}
+#orange {
+  display :flex !important;
+  flex-direction : column;
+  text-decoration : underline;
+  text-align :center !important;
+  justify-content :center
+}
+
+@media(max-width : 720px){
+    .messgae {
+      width : 100%;
+    }
+    .message-content h3 {
+      font-size : 32px;
+      padding-top : 18px;
+    }
+    #orange p {
+      font-size : 23px;
+      font-style : italic;
+      font-weight : 700;
+    }
+    #orange {
+      flex-direction : column;
+    }
+    #footer-icon-slide{
+      border: none !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 20px;
+      transform: rotate(-9deg);
+    }
+    .messgae {
+      height : 80px;
+      width : 60%;
+      line-height :80px;
+      background-color : #24ff24;
+      font-weight : 700;
+      text-align :center;
+      display : flex;
+      margin : auto;
+    }
+    .messgae h2 {
+      margin : auto;
+    }
+    .message-content {
+      min-height : 65vh;
+      width : 100%;
+      background : url("../tile.png");
+      padding-bottom : 30px;
+
+    }
+    .message-content h3 {
+      font-size : 62px;
+      font-family : casteller;
+      text-align :center;
+    }
+    aside aside {
+      min-height : 25vh;
+      padding : 3%;
+      width : 100%;
+      display : flex;
+    }
+    aside aside {
+      min-height : 25vh;
+      padding : 3%;
+      width : 100%;
+      display : flex !important;
+    }
+    .container-wrapper {
+      background-color : white;
+      padding-bottom : 18px;
+       border: 18px solid #e64a19ad;
+    }
+    aside aside a {
+      margin : auto;
+      border-radius : 8px;
+      background-color : black;
+      color : orange;
+      font-weight : 700;
+    }
+    #orange p {
+      font-size : 28px;
+      font-style : italic;
+      font-weight : 700;
+      text-align :center !important;
+    }
+    aside aside a button {
+      background-color : orange;
+      color : black;
+      font-weight : 700;
+      transition : all 0.75s ease;
+    }
+
+    aside aside a button:hover {
+      background-color : black;
+      color : orange;
+      letter-spacing : 2px;
+    }
+    .three, #orange {
+      color :#FFB687;
+      font-style : italic;
+      font-weight : 600;
+
+      text-shadow : 1px 2px 1px black;
+    }
+    #orange {
+      display :flex !important;
+      flex-direction : column;
+      text-decoration : underline;
+      text-align :center !important;
+      justify-content :center
+    }
+    .messgae {
+      width : 100%;
+    }
+    .message-content h3 {
+      font-size : 32px;
+      padding-top : 18px;
+    }
+    #orange p {
+      font-size : 23px;
+      font-style : italic;
+      font-weight : 700;
+    }
+    #orange {
+      flex-direction : column;
+    }
+    .footer-links {
+      flex-direction: column !important;
+    }
+    .footer-links img {
+      margin-bottom: 10px;
+    }
+    footer .move-up-icon {
+        bottom: 117px;
+    }
+}
+/* =======================================
+           HOVER ACTIVE FOCUS
+ ======================================= */
+button:hover,
+a:hover {
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: white;
+}
+#services article aside:hover {
+  background-color: #dab544;
+  color: green;
+  font-weight: 800 !important;
+}
+
+.btn-col-1:hover {
+  background-color: #009933;
+  color : white;
+}
+.btn-col-2:hover {
+  background-color: #dab544;
+  color : white;
+}
+.btn-col-2 a:hover {
+  color :white !important;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+header article ul li a:hover {
+  color : gold !important;
+}
+.move-up-icon img:hover {
+	transform : rotate(0deg);
+	opacity : 1;
+}
+
+ /* =======================================
+            JAVASCRIPT ANIMATIONS
+  ======================================= */
+/* .show-content {
+  transition: all 0.8s ease-in-out;
+  opacity
+} */
+
+
+.y-zindex {
+  transition: all 0.8s ease-in-out;
+  transform: scale(1.1);
+  z-index: 100;
+}
+.opening-modal {
+  display: flex !important;
+  animation: open-brach-modal 1.5s ease forwards;
+}
+.force-view  {
+  display :flex !important;
+}
+@keyframes open-brach-modal {
+  0${
+    opacity: 0.2;
+  }
+  50% {
+      opacity: 0.5;
+  }
+  100% {
+      opacity: 1;
+  }
+}

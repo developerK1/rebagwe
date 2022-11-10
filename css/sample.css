@@ -1,0 +1,414 @@
+#section {
+  height: 100vh;
+}
+section {
+  padding: 3% 0%;
+}
+/* =========================================
+            HEADER SECTION
+========================================== */
+header aside {
+  width : 100%;
+  height: 6vh;
+  background-color: #009933;
+  display :flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header article {
+  width : 100%;
+  min-height: 18vh;
+  display: flex;
+}
+header .social-links {
+  margin-right: 100px;
+}
+header .social-links a {
+  margin: 5px;
+}
+ header article .flexy-cen {
+   width: 100%;
+  align-content: flex-end;
+ }
+header article ul{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+header article ul li{
+  list-style: none;
+  text-align: center;
+  width : 140px;
+}
+header article ul li a {
+  width : 140px;
+  height: 100%;
+  font-weight: 700;
+  color:#006633 ;
+}
+/* =========================================
+            HEME HERO SECTION
+========================================== */
+#home-hero {
+  width : 100%;
+  height: 80vh;
+  border-bottom: 5px solid #009933;
+  margin: -20px 0px 10px 0px;
+}
+
+/* =========================================
+            ABOUT US SECTION
+========================================== */
+#about-us {
+  min-height: 83vh;
+  text-align: left;
+}
+#about-us aside .content {
+  display : none;
+  opacity: 0;
+}
+#about-us aside,
+#about-us article {
+  min-height: 450px;
+}
+#about-usaside {
+  align-items: flex-start;
+}
+#about-us .common-para {
+    font-size: 42px;
+    font-style: italic;
+    text-shadow: -1px -3px 5px #d3b201;
+    color: #028e02;
+}
+#about-us .head-small {
+  color :green;
+}
+/* =========================================
+            SERVICES SECTION
+========================================== */
+#services {
+  background-color: #d4d4d480;
+  min-height: 90vh;
+  padding: 2% 1%;
+  text-align: center;
+
+}
+#services article {
+  padding: 1%;
+  height: 300px;
+}
+#services article aside{
+  border : 3px solid #dab544;
+  background-color: #043b04;
+  color :#dab544;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  transition: all 0.7s ease-in-out;
+}
+ #services .flexy-cen {
+   width : 100%;
+   height: 10vh;
+ }
+ #services #content {
+   display : none;
+   transition: all 0.5s ease-in-out;
+ }
+#services .common-para {
+  margin : 20px;
+}
+ /* =========================================
+             SERVICES SECTION
+ ========================================== */
+#hero-center {
+  height: 100Vh;
+  text-align: center;
+  background: url("../assests/gallery/roseg.png") repeat;
+}
+#hero-center article {
+  height: 65vh;
+  width :100%;
+  background-color: #1da02299;
+  color: white;
+  font-weight: 800;
+  background: url("../assests/gallery/flowerg.png") repeat;
+}
+#hero-center aside {
+  transform: translateY(80px);
+  height: 75vh;
+  width :550px;
+  margin : auto;
+  background-color: #ffeb3b;
+  position: relative;
+  color: #584848;
+  justify-content: space-around;
+}
+#hero-center aside p {
+  transform: translateY(-40px);
+}
+ #hero-center div {
+   position: absolute;
+   bottom : 0px;
+   width: 100%;
+   left : 0;
+   transform: translateY(23px);
+ }
+ #hero-center .add-more {
+   width : 200px;
+   height: 60px;
+   border-radius: 8px;
+ }
+/* =========================================
+            TESTIMONIALS SECTION
+========================================== */
+#testimoanial {
+  height: 80vh;
+  background-color : black;
+}
+#testimoanial-carousel {
+  background-color : white;
+  transform: translateY(100px);
+  text-align: center;
+}
+#testimoanial .carousel-item .flexy-col {
+  transform: translateY(40px);
+}
+#testimoanial img {
+  border-radius: 12px;
+}
+#testimoanial .carousel-inner {
+    height: 100%;
+    background-image: radial-gradient(#ffc107ba, #63ba3e9c);
+    color: #0e3810;
+    font-weight: 700;
+}
+/* =========================================
+            SERVICES SECTION
+========================================== */
+.news-update {
+	padding: 3% 5%;
+}
+.news-update h3{
+	padding: 3% 5%;
+	margin : 3%;
+}
+.news-update h4{
+	text-decoration : underline;
+	margin : 3% 0px;
+}
+.news-update article {
+	min-height : 72vh;
+	display :flex;
+	flex-direction :column;
+  margin-bottom: 13px;
+}
+.news-update a {
+    transition: all 0.5s ease-in;
+    width: 165px;
+    height: 46px;
+}
+.news-update img {
+	height : 335px;
+}
+/* =========================================
+            LOVE_ONE HERO SECTION
+========================================== */
+#love-one {
+  padding-top: 123px;
+  text-align: center;
+  background: url("../assests/gallery/artboard-1.png") no-repeat;
+  background-position: center 43px;
+  background-size: contain;
+}
+#love-one article {
+  background-color: rgba(0,0,0,0.3);
+}
+#love-one article {
+    color: white;
+    background-image: linear-gradient(344deg, #0000006e, #6aba479e);
+    height: 47vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 400;
+}
+/* =========================================
+            FOOTER CONTENTS
+========================================== */
+#footer-content {
+  min-height: 100vh;
+}
+ #map {
+  width: 100%;
+  height: 70vh;
+  background: black;
+}
+ #map iframe{
+  width : 100%;
+  height: 100%;
+}
+#form {
+  width : 480px;
+  border : 3px solid red;;
+}
+.full-width {
+  height: 460px;
+  width: 100%;
+  background-color: #0066338f;
+}
+#services aside img {
+  background-color: #dab544;
+}
+.footer-links {
+  min-height: 12vh;
+  background-color:black ;
+  color :white;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.footer-links a {
+  color : gold;
+  font-weight: 700;
+}
+.footer-links img {
+  width : 250px;
+}
+/* =========================================
+            MAP AND FORM SECTION
+========================================== */
+#easy-contact{
+	padding: 2% 0%;
+	margin-bottom:8px;
+}
+#easy-contact .adress {
+	 display :flex;
+	 justify-content : center;
+	 flex-direction : column;
+	 align-items :center;
+	 color :white;
+	 font-weight : 600;
+	 font-size : 20px;
+	 margin-bottom:8px;
+}
+#easy-contact form{
+	background-color :white;
+	padding : 2%;
+	text-align :center;
+	font-weight : 800;
+	font-size : 18px;
+	text-transform :uppercase;
+	margin-bottom:8px;
+}
+#form-modal form {
+	background-color :#4ecc4ed1;
+  width : 100% !important;
+	padding : 2%;
+	text-align :center;
+	font-weight : 800;
+	font-size : 18px;
+	text-transform :uppercase;
+	margin-bottom:8px;
+}
+#form-modal form .form-control{
+  text-align: center;
+}
+#easy-contact form input , textarea {
+	text-align :center;
+}
+#easy-contact form label {
+  margin: 5px;
+}
+/* =========================================
+            FOOTER SECTION
+========================================== */
+footer {
+  position: relative;
+}
+footer .refer {
+  height: 460px;
+  width: 100%;
+  text-align: center;
+  background: url("../assests/gallery/artboard-3.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  color :white ;
+  font-weight: 700;
+}
+footer .move-up-icon {
+    position: absolute;
+    right: 8px;
+    bottom: 111px;
+}
+.move-up-icon img {
+    transition: all 0.4s ease-in-out;
+    transform: rotate(180deg);
+    border-radius: 50%;
+    opacity: 0.7;
+}
+/* =========================================
+            IMAGES SECTION
+========================================== */
+header .social-links img{
+  height: 18px;
+  width : 18px;
+}
+header article img {
+  width : 270px;
+  height: 90px;
+}
+
+#myCarousel img {
+  width : 100%;
+  height: 680px;
+}
+#about-us img {
+  width : 100%;
+  border : 10px #dab544 solid;
+}
+
+/* =========================================
+            SAMPLE PAGE NOT FOUND
+========================================== */
+#sample {
+  height: 90vh;
+  width : 100%;
+  background: url("../assests/gallery/sample.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.musk {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: repeating-radial-gradient(#00800042,#ffd70091 15%);
+}
+ #sample .overlayed {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   background-color: #0000004f;
+ }
+#sample .musk h1 {
+  margin :auto;
+  width: 80%;
+  color :white;
+  text-align: center;
+  background-color: #000000d1;
+  padding: 2%;
+  text-shadow: 7px 8px 6px green;
+}
