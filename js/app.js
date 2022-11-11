@@ -181,21 +181,6 @@ function checkSingle(elem){
 
 
 
-/* =============================================================== */
-/* ===================== DISABLE FORM ============================= */
-/* =============================================================== */
-const subBtns =  checkUp(document.querySelectorAll("form button"))
-
-if(subBtns !== null){
-	subBtns.forEach(btn =>{
-		btn.addEventListener("click", function(e){
-			e.preventDefault();
-			alert("SORRY, DATABASE MISSING...!");
-		});
-	})
-}
-
-
 
 /* =============================================================== */
 /* ===================== DISABLE FORM ============================= */
