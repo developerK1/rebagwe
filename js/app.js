@@ -194,3 +194,30 @@ if(subBtns !== null){
 		});
 	})
 }
+
+
+
+/* =============================================================== */
+/* ===================== DISABLE FORM ============================= */
+/* =============================================================== */
+const subBtns =  checkUp(document.querySelectorAll("form button"));
+const branchBtns =  checkUp(document.querySelectorAll("#branches-modal aside button"));
+
+
+
+if(subBtns !== null){
+	subBtns.forEach(btn =>{
+		btn.addEventListener("click", function(e){
+			e.preventDefault();
+			alert("SORRY, DATABASE MISSING...!");
+		});
+	})
+}
+
+if(branchBtns !== null){
+	branchBtns.forEach(btn =>{
+		btn.addEventListener("click", function(e){
+			alert("SORRY,Google intergrations missing...!");
+		});
+	})
+}
